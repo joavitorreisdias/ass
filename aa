@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+
+#include <math.h>
+void main()
+{
+float n, maior, menor, numeroprovas,media,soma;
+n = 0;
+maior= -1;
+menor = n +3;
+numeroprovas = 0;
+
+while (n >= 0) {
+
+    printf("Digite n :");
+    scanf("%f", &n);
+    numeroprovas ++;
+    soma+= n;
+
+
+    if( maior < n){
+        maior = n;
+    }
+     if( menor > n && n >= 0){
+        menor = n;
+    }
+
+
+
+
+
+
+}
+
+
+    soma = soma + 1;
+    printf(" a menor nota é %f e a maior é %f", menor, maior);
+    printf("a media é: %f", soma/(numeroprovas-1));
+
+
+}
